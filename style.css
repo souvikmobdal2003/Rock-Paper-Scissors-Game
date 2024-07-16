@@ -1,0 +1,58 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f7f7f7; /* Light gray background */
+}
+
+#rock, #paper, #scissors {
+    display: inline-block;
+    margin: 20px;
+    width: 200px;
+    height: 250px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(128, 128, 128, 0.1);
+    background-color: #e8f7fb; /* Light blue background */
+}
+
+#rock img, #paper img, #scissors img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    margin-top: 0;
+    color: #3e8ebf; /* Darker blue for headings */
+}
+
+button {
+    box-shadow: 0 0 10px rgba(128, 128, 128, 0.1);
+    color: #3e8ebf; /* Darker blue for button text */
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #c5e0ec; /* Light blue for button background */
+    transition: background-color 0.3s ease, transform 0.2s ease; /* Add a transition for background color and transform */
+}
+
+button:hover {
+    background-color: #b5d0e3; /* Slightly darker blue on hover */
+    transform: translateY(-2px); /* Add a subtle "lift" effect on hover */
+}
+
+button:active {
+    background-color: #a5c0d6; /* Even darker blue on click */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    transform: translateY(2px); /* Add a "press" effect on click */
+}
+
+p {
+    font-size: 20px;
+    font-weight: bold;
+    color: #e84545; /* Red for result text */
+}
