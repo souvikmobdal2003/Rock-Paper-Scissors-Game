@@ -36,7 +36,7 @@ function chose(event) {
         document.querySelector(".result").innerHTML = `Draw! Computer chose ${computerChoice} and User chose ${userChoice}`;
     } else if (userChoice == "rock" && computerChoice == "paper") {
         // User loses because paper beats rock
-        document.querySelector(".result").innerHTML = "You Lose";
+        document.querySelector(".result").innerHTML = `You Lose !  Computer chose ${computerChoice} and User chose ${userChoice} `;
         computerScore++;
     } else if (userChoice == "rock" && computerChoice == "scissors") {
         // User wins because rock beats scissors
